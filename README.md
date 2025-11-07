@@ -12,7 +12,7 @@ Este projeto realiza a raspagem de dados de processos judiciais do sistema Eproc
 ### 1. Clonar o repositório
 
 ```bash
-git clone 
+git clone https://github.com/marcosfacini/webscrap.git
 ```
 
 ### 2. Criar e ativar o ambiente virtual
