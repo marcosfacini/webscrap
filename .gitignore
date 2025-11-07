@@ -1,0 +1,43 @@
+# Cache do pytest
+.pytest_cache/
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos temporários do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos temporários e de execução
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.temp
+
+# Resultados e dados gerados
+resultados.json
+sample_output/
+
+# Arquivos do Playwright
+playwright-report/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do editor
+*.swp
+*.swo
+
+# Arquivos criados pelo Code Runner
+src/scraper/tempCodeRunnerFile.py
+
+# Testes e relatórios
+*.coverage
+htmlcov/
+
+# Outros arquivos que não devem ir para o repositório
+.env
